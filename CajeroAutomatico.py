@@ -1,16 +1,15 @@
 # ===========================================
 # PROGRAMA: CAJERO AUTOMÁTICO
-# Autor: (Escribir nombre del estudiante)
+# Autor: Maria Leguia 3ROSEC.
 # ===========================================
 
-saldo = 1000
-pin_correcto = "1234"
-
+saldo = 6900
+pin_correcto = "3456"
 print("===================================")
-print("     BIENVENIDO AL CAJERO")
+print("    CAJERO DEL BANCO  BBVA   ")
 print("===================================")
 
-pin = input("Ingrese su PIN: ")
+pin = input("Por favor ingrese su PIN: ")
 
 if pin == pin_correcto:
 
